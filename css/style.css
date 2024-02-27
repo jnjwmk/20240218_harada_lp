@@ -34,7 +34,7 @@ header{
     left:230px;
 }
 h1{
-    font-size: 40px;
+    font-size: 4vw;
     font-family: "Indie Flower", cursive;
     line-height: 80px;
     color: #C71585;
@@ -44,7 +44,7 @@ h1{
     color:#00CED1;
 }
 .title__text{
-    font-size: 18px;
+    font-size: 1.8vw;
     font-weight: bold;
     margin-bottom: 10px;
     color: #C71585;
@@ -54,7 +54,7 @@ h1{
 }
 .title__text--bottom{
     line-height: 25px;
-    font-size: 14px;
+    font-size: 1.4vw;
 }
 /* 新着情報 */
 .news{
@@ -172,11 +172,10 @@ h1{
     font-weight: bold;
     margin-bottom: 20px;
     font-size: 20px;
-    
 }
 .service__content{
     display: grid;
-
+    margin-left: -10%;
 }
 .service__content__item1{
     display: inline-block;
@@ -213,6 +212,7 @@ h1{
     grid-column: 2/3;
     grid-row:1/2 ;
     position: relative;
+    left: -50px;
 }
 .img-item2 , .img-item3{
     width: 90px;
@@ -245,6 +245,7 @@ h1{
     grid-column: 2/3;
     grid-row: 2/3;
     position: relative;
+    left: -50px;
 }
 /*  ブログ*/
 .blog{
@@ -272,7 +273,7 @@ h1{
 }
 .blog-item{
     display: flex;
-    margin-left: 15%;
+    margin-left: 5.5%;
     margin-bottom: 10px;
 }
 .card{
