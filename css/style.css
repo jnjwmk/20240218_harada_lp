@@ -465,3 +465,30 @@ table td{
 small{
     padding: 5px;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1500px){
+    .news__title{
+        margin-left: 400px;
+    }
+    .news__list{
+        margin-left: 400px;
+    }
+    .about-text , .about-text2{
+        margin-left: 100px;
+    }
+    .about__img{
+        margin-left: 100px;
+    }
+    .service__content__item1{
+        margin-left: 500px;
+    }
+    .service__content__item2 , .service__content__item3{
+        left: -175px;
+    }
+    .blog-item{
+        margin-left: 350px;
+    }
+    .card__cat--left{
+        right: 195px;
+    }
+}
