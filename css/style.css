@@ -66,6 +66,8 @@ h1{
     margin-left: 250px;
     margin-bottom: 50px;
     margin-top: 50px;
+    width: 100%;
+    margin: 0 auto;
 }
 .news__title--top{
     color: #C71585;
@@ -85,6 +87,7 @@ h1{
     border-top: 2px solid #c9c6c6;
     border-bottom: 2px solid #c9c6c6;
     padding-top: 30px;
+    margin-top: 30px;
 }   
 .news__list-item{
     list-style: none;
@@ -178,6 +181,8 @@ h1{
 .service__content{
     display: grid;
     margin-left: -10%;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 2fr 2fr;
 }
 .service__content__item1{
     display: inline-block;
@@ -281,6 +286,8 @@ h1{
     display: flex;
     margin-left: 5.5%;
     margin-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
 }
 .card{
     width: 250px;
@@ -290,6 +297,8 @@ h1{
     background-color: #fff;
     position: relative;
     margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 .img__blog{
     width:100%;
@@ -536,7 +545,7 @@ small{
             margin-left: 110px;
     }
     .blog-item {
-            margin-left: -90px;
+            margin-left: -135px;
         }
     .card{
         position: relative;
