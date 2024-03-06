@@ -571,7 +571,7 @@ small{
         left: 200px;
     }
     .card__cat--left {
-        right: 195px;
+        right: 183px;
         }
     .company__ttl{
         width:500px;
@@ -587,11 +587,14 @@ small{
         margin-left: 350px;
     }
     .service__content__item2 , .service__content__item3{
-        left:-180px;
+        left:-175px;
         width:400px;
         margin: 0 auto;
     }
     .company__ttl {
         margin-top: 30px;
+    }
+    .card__cat--left {
+    right: 188px;
     }
 }
